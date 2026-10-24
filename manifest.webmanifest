@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "DRIVEN｜車・列車 走行記録",
+  "short_name": "DRIVEN",
+  "description": "車・列車を切り替えてGPS走行記録・GPX/JSON読込・軌跡比較・印刷",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a22",
+  "theme_color": "#17384a",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
