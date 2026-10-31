@@ -2,7 +2,7 @@
   "id": "./",
   "name": "DRIVEN｜車・列車 走行記録",
   "short_name": "DRIVEN",
-  "description": "車・列車を切り替えてGPS走行記録・GPX/JSON読込・軌跡比較・印刷",
+  "description": "現在地確認・地点測位・軌跡記録、クルマ・列車のGPX/JSON整理、区間編集・印刷",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",

@@ -1,8 +1,8 @@
-/* DRIVEN v0.8.0 - PWA offline application shell only; map tiles are online-only. */
+/* DRIVEN v0.9.0 - PWA offline application shell only; map tiles are online-only. */
 'use strict';
-const CACHE_NAME='driven-app-shell-v0.8.0';
+const CACHE_NAME='driven-app-shell-v0.9.0';
 const CACHE_PREFIX='driven-app-shell-';
-const SHELL=['./','./index.html','./manifest.webmanifest','./workspace.js','./workspace.css','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png'];
+const SHELL=['./','./index.html','./manifest.webmanifest','./workspace.js','./workspace.css','./recorder.js','./icons/icon-192.png','./icons/icon-512.png','./icons/maskable-512.png'];
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(SHELL)));
   // Do not force activation during an active driving/train recording.
