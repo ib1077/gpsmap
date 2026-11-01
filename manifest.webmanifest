@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "DRIVEN｜車・列車 走行記録",
+  "name": "DRIVEN｜測位・GPX編集",
   "short_name": "DRIVEN",
-  "description": "現在地確認・地点測位・軌跡記録、クルマ・列車のGPX/JSON整理、区間編集・印刷",
+  "description": "現在地・測位、軌跡・地点記録、GPX編集・区間抽出・印刷",
   "lang": "ja",
   "start_url": "./",
   "scope": "./",
